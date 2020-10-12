@@ -99,6 +99,8 @@ const loadSongs = (songs) => {
     img.src = `images/${songs.image}.jpg`;
 }
 
+loadSongs(songs[0]);
+
 // adding event listener to the next and prev button
 let songsIdx = 0;
 
