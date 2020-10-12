@@ -1,0 +1,511 @@
+*,
+*::before,
+*::after{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 62.5%;
+    color: white;
+    /* the dafault is 16px now it is 10px */
+    /* 1rem = 10px*/
+}
+
+/* background styling */
+.main_div{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    /* center placing of the music container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Music wave styling */
+
+.center_div{
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_div .wave1{
+    width: 0.4rem;
+    height: 25rem;
+    background-color: #c8d6e5;
+    margin: 0 0.4rem;
+    border-radius: 0.4rem;
+    animation: waves 1s linear infinite;
+    -webkit-animation: waves 1s linear infinite;
+}
+
+.center_div .wave2{
+    width: 0.4rem;
+    height: 25rem;
+    background-color: #fa163f;
+    margin: 0 0.4rem;
+    border-radius: 0.4rem;
+    animation: waves2 1s linear infinite;
+    -webkit-animation: waves2 1s linear infinite;
+}
+
+
+@keyframes waves{
+    0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+@keyframes waves2{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.wave1:nth-child(1){
+    animation-delay: 0.00s;
+}
+.wave1:nth-child(2){
+    animation-delay: 0.01s;
+}
+.wave1:nth-child(3){
+    animation-delay: 0.02s;
+}
+.wave1:nth-child(4){
+    animation-delay: 0.03s;
+}
+.wave1:nth-child(5){
+    animation-delay: 0.04s;
+}
+.wave1:nth-child(6){
+    animation-delay: 0.05s;
+}
+.wave1:nth-child(7){
+    animation-delay: 0.06s;
+}
+.wave1:nth-child(8){
+    animation-delay: 0.07s;
+}
+.wave1:nth-child(9){
+    animation-delay: 0.08s;
+}
+.wave1:nth-child(10){
+    animation-delay: 0.09s;
+}
+.wave1:nth-child(11){
+    animation-delay: 0.1s;
+}
+.wave1:nth-child(12){
+    animation-delay: 0.12s;
+}
+.wave1:nth-child(13){
+    animation-delay: 0.13s;
+}
+.wave1:nth-child(14){
+    animation-delay: 0.14s;
+}
+.wave1:nth-child(15){
+    animation-delay: 0.15s;
+}
+.wave1:nth-child(16){
+    animation-delay: 0.16s;
+}
+.wave1:nth-child(17){
+    animation-delay: 0.18s;
+}
+.wave1:nth-child(18){
+    animation-delay: 0.19s;
+}
+.wave1:nth-child(19){
+    animation-delay: 0.2s;
+}
+.wave1:nth-child(20){
+    animation-delay: 0.21s;
+}
+.wave1:nth-child(21){
+    animation-delay: 0.22s;
+}
+.wave1:nth-child(22){
+    animation-delay: 0.23s;
+}
+.wave1:nth-child(23){
+    animation-delay: 0.24s;
+}
+.wave1:nth-child(24){
+    animation-delay: 0.25s;
+}
+.wave1:nth-child(25){
+    animation-delay: 0.26s;
+}
+.wave1:nth-child(26){
+    animation-delay: 0.27s;
+}
+.wave1:nth-child(27){
+    animation-delay: 0.28s;
+}
+.wave1:nth-child(28){
+    animation-delay: 0.29s;
+}
+.wave1:nth-child(29){
+    animation-delay: 0.30s;
+}
+.wave1:nth-child(30){
+    animation-delay: 0.31s;
+}
+.wave1:nth-child(31){
+    animation-delay: 0.32s;
+}
+.wave1:nth-child(32){
+    animation-delay: 0.33s;
+}
+.wave1:nth-child(33){
+    animation-delay: 0.34s;
+}
+.wave1:nth-child(34){
+    animation-delay: 0.35s;
+}
+.wave1:nth-child(35){
+    animation-delay: 0.36s;
+}
+.wave1:nth-child(36){
+    animation-delay: 0.37s;
+}
+.wave1:nth-child(37){
+    animation-delay: 0.38s;
+}
+.wave1:nth-child(38){
+    animation-delay: 0.39s;
+}
+.wave1:nth-child(39){
+    animation-delay: 0.40s;
+}
+.wave1:nth-child(40){
+    animation-delay: 0.41s;
+}
+.wave1:nth-child(41){
+    animation-delay: 0.42s;
+}
+.wave1:nth-child(42){
+    animation-delay: 0.43s;
+}
+.wave1:nth-child(43){
+    animation-delay: 0.44s;
+}
+.wave1:nth-child(44){
+    animation-delay: 0.45s;
+}
+.wave1:nth-child(45){
+    animation-delay: 0.46s;
+}
+.wave1:nth-child(46){
+    animation-delay: 0.47s;
+}
+.wave1:nth-child(47){
+    animation-delay: 0.48s;
+}
+.wave1:nth-child(48){
+    animation-delay: 0.49s;
+}
+.wave1:nth-child(49){
+    animation-delay: 0.50s;
+}
+.wave1:nth-child(50){
+    animation-delay: 0.50s;
+}
+.wave1:nth-child(51){
+    animation-delay: 0.50s;
+}
+.wave1:nth-child(52){
+    animation-delay: 0.50s;
+}
+.wave1:nth-child(53){
+    animation-delay: 0.50s;
+}
+
+
+.wave2:nth-child(1){
+    animation-delay: 0.00s;
+}
+.wave2:nth-child(2){
+    animation-delay: 0.01s;
+}
+.wave2:nth-child(3){
+    animation-delay: 0.02s;
+}
+.wave2:nth-child(4){
+    animation-delay: 0.03s;
+}
+.wave2:nth-child(5){
+    animation-delay: 0.04s;
+}
+.wave2:nth-child(6){
+    animation-delay: 0.05s;
+}
+.wave2:nth-child(7){
+    animation-delay: 0.06s;
+}
+.wave2:nth-child(8){
+    animation-delay: 0.07s;
+}
+.wave2:nth-child(9){
+    animation-delay: 0.08s;
+}
+.wave2:nth-child(10){
+    animation-delay: 0.09s;
+}
+.wave2:nth-child(11){
+    animation-delay: 0.1s;
+}
+.wave2:nth-child(12){
+    animation-delay: 0.12s;
+}
+.wave2:nth-child(13){
+    animation-delay: 0.13s;
+}
+.wave2:nth-child(14){
+    animation-delay: 0.14s;
+}
+.wave2:nth-child(15){
+    animation-delay: 0.15s;
+}
+.wave2:nth-child(16){
+    animation-delay: 0.16s;
+}
+.wave2:nth-child(17){
+    animation-delay: 0.18s;
+}
+.wave2:nth-child(18){
+    animation-delay: 0.19s;
+}
+.wave2:nth-child(19){
+    animation-delay: 0.2s;
+}
+.wave2:nth-child(20){
+    animation-delay: 0.21s;
+}
+.wave2:nth-child(21){
+    animation-delay: 0.22s;
+}
+.wave2:nth-child(22){
+    animation-delay: 0.23s;
+}
+.wave2:nth-child(23){
+    animation-delay: 0.24s;
+}
+.wave2:nth-child(24){
+    animation-delay: 0.25s;
+}
+.wave2:nth-child(25){
+    animation-delay: 0.26s;
+}
+.wave2:nth-child(26){
+    animation-delay: 0.27s;
+}
+.wave2:nth-child(27){
+    animation-delay: 0.28s;
+}
+.wave2:nth-child(28){
+    animation-delay: 0.29s;
+}
+.wave2:nth-child(29){
+    animation-delay: 0.30s;
+}
+.wave2:nth-child(30){
+    animation-delay: 0.31s;
+}
+.wave2:nth-child(31){
+    animation-delay: 0.32s;
+}
+.wave2:nth-child(32){
+    animation-delay: 0.33s;
+}
+.wave2:nth-child(33){
+    animation-delay: 0.34s;
+}
+.wave2:nth-child(34){
+    animation-delay: 0.35s;
+}
+.wave2:nth-child(35){
+    animation-delay: 0.36s;
+}
+.wave2:nth-child(36){
+    animation-delay: 0.37s;
+}
+.wave2:nth-child(37){
+    animation-delay: 0.38s;
+}
+.wave2:nth-child(38){
+    animation-delay: 0.39s;
+}
+.wave2:nth-child(39){
+    animation-delay: 0.40s;
+}
+.wave2:nth-child(40){
+    animation-delay: 0.41s;
+}
+.wave2:nth-child(41){
+    animation-delay: 0.42s;
+}
+.wave2:nth-child(42){
+    animation-delay: 0.43s;
+}
+.wave2:nth-child(43){
+    animation-delay: 0.44s;
+}
+.wave2:nth-child(44){
+    animation-delay: 0.45s;
+}
+.wave2:nth-child(45){
+    animation-delay: 0.46s;
+}
+.wave2:nth-child(46){
+    animation-delay: 0.47s;
+}
+.wave2:nth-child(47){
+    animation-delay: 0.48s;
+}
+.wave2:nth-child(48){
+    animation-delay: 0.49s;
+}
+.wave2:nth-child(49){
+    animation-delay: 0.50s;
+}
+.wave2:nth-child(50){
+    animation-delay: 0.51s;
+}
+.wave2:nth-child(51){
+    animation-delay: 0.52s;
+}
+.wave2:nth-child(52){
+    animation-delay: 0.53s;
+}
+.wave2:nth-child(53){
+    animation-delay: 0.54s;
+}
+.wave2:nth-child(54){
+    animation-delay: 0.55s;
+}
+
+
+
+
+ /* middle container styling */
+.music_container{
+    width: 35rem;
+    height: 55rem;
+    background-color: black;
+    border-radius: 2rem;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(145, 141, 141, 0.61);
+    padding: 3rem;
+    text-align: center;
+}
+
+/* song name text styling */
+.music_container #title{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    font-size: 4rem;
+    margin: 1.5rem;
+    font-weight: 600;
+    text-shadow: 0.175rem 0.2rem 0.5rem rgba(241, 230, 230, 0.904);
+}
+
+/* singer name text styling */
+.music_container #artist{
+    font-size: 3.5rem;
+    padding: 1.75rem;
+    letter-spacing: 0.25rem;
+    margin-bottom: 2rem;
+    color: crimson;
+    text-transform: 300;
+}
+
+/* image_container styling */
+.img_container{
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+}
+
+/* image styling */
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0.175rem 0.52rem 0.75rem rgba(145, 141, 141, 0.61);
+    margin-bottom: 3rem;
+}
+
+/* music controller stlying */
+.music_controls{
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    margin: auto;
+    align-items: center;
+}
+.music_controls .fas{
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(145, 141, 141, 0.61));
+    margin-top: 5rem;
+}
+
+.music_controls .play_button{
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music_controls .fas:hover{
+    color: grey;
+}
+
+.music_controls .fa-play:hover{
+    background-color: #222;
+    color: white;
+    box-shadow: 0 0 0.2rem 0.2rem rgba(241, 230, 230, 0.904);;
+}
+
+/* adding animation using adding the class anime */
+
+/* ANIMATION - 1 */
+/* rotation of the music disc */
+.anime{
+    animation: rotation 3s linear infinite;
+}
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
